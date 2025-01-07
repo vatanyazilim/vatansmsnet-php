@@ -1,7 +1,7 @@
 
 # VatanSMS PHP SDK
 
-VatanSMS.NET API'sini PHP projelerinizde kolayca kullanmak için geliştirilmiş bir SDK.
+VatanSMS API'sini PHP projelerinizde kolayca kullanmak için geliştirilmiş bir SDK.
 
 ## Kurulum
 
@@ -56,31 +56,31 @@ Gönderici adlarını sorgulama.
 Kullanıcı bilgilerini sorgulama.
 
 
-    $client->getUserInformation();` 
+    $client->getUserInformation(); 
 
 ### 5. `getReportDetail`
 
 Rapor detayı sorgulama.
 
-    $client->getReportDetail(int $reportId, int $page = 1, int $pageSize = 20);` 
+    $client->getReportDetail(int $reportId, int $page = 1, int $pageSize = 20); 
 
 ### 6. `getReportsByDate`
 
 Tarih bazlı rapor sorgulama.
 
-    $client->getReportsByDate(string $startDate, string $endDate);` 
+    $client->getReportsByDate(string $startDate, string $endDate);
 
 ### 7. `getReportStatus`
 
 Sonuç sorgusu.
 
-    $client->getReportStatus(int $reportId);` 
+    $client->getReportStatus(int $reportId);
 
 ### 8. `cancelFutureSms`
 
 İleri tarihli SMS iptali.
 
-    $client->cancelFutureSms(int $id);` 
+    $client->cancelFutureSms(int $id);
 
 ----------
 
@@ -88,7 +88,7 @@ Sonuç sorgusu.
 
 Testleri çalıştırmak için şu komutu kullanabilirsiniz:
 
-    vendor/bin/phpunit`
+    vendor/bin/phpunit
 
 
 

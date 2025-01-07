@@ -1,0 +1,24 @@
+{
+  "name": "vatanyazilim/vatansmsnet-php",
+  "description": "VatanSMS.Net PHP SDK",
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "VatanSms\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "VatanSoft",
+      "email": "info@vatansoft.net"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  }
+}

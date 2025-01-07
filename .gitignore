@@ -1,0 +1,18 @@
+# Composer vendor klasörü
+/vendor/
+
+# Composer.lock dosyası
+composer.lock
+
+# IDE ayarları
+.idea/
+.vscode/
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# Log ve cache dosyaları
+/storage/logs/
+*.log
+/storage/framework/cache/

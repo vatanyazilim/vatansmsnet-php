@@ -1,7 +1,7 @@
 
  
-# VatanSMS PHP SDK
-VatanSMS API'sini PHP projelerinizde kolayca kullanmak için geliştirilmiş bir SDK.  
+# VatanSMS.Net PHP SDK
+VatanSMS.Net API'sini PHP projelerinizde kolayca kullanmak için geliştirilmiş bir SDK.  
   
 ## Kurulum
 
